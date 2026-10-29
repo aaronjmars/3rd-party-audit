@@ -1,0 +1,15 @@
+{
+  "name": "3rd-party-audit",
+  "description": "Agent skill that maps a website's browser-visible third parties and ranks them by risk.",
+  "owner": {
+    "name": "Aaron Elijah Mars",
+    "url": "https://github.com/aaronjmars"
+  },
+  "plugins": [
+    {
+      "name": "third-party-scan",
+      "source": "./",
+      "description": "Inventory a website's browser-visible third parties and rank them by frontend supply-chain risk."
+    }
+  ]
+}

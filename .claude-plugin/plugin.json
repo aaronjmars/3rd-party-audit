@@ -1,0 +1,10 @@
+{
+  "name": "third-party-scan",
+  "version": "1.3.0",
+  "description": "Inventory a website's browser-visible third parties and rank them by frontend supply-chain risk.",
+  "author": { "name": "Aaron Elijah Mars", "url": "https://github.com/aaronjmars" },
+  "homepage": "https://github.com/aaronjmars/3rd-party-audit",
+  "repository": "https://github.com/aaronjmars/3rd-party-audit",
+  "license": "MIT",
+  "keywords": ["security", "supply-chain", "third-party", "trackers", "privacy", "skill"]
+}
