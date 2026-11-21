@@ -2,7 +2,7 @@
 name: third-party-scan
 description: Inventory a website's browser-visible third parties, identify their publishers, estimate cross-site adoption, score public reputation signals, and rank frontend supply-chain risks. Use when given a domain or URL to check external scripts, trackers, vendors, or weak links.
 license: MIT
-compatibility: Needs Python 3.9+ (standard library only) and internet access. The `whois` command is optional.
+compatibility: Needs Python 3.10+ (standard library only) and internet access. The `whois` command is optional.
 ---
 
 # Third-party scan
