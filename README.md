@@ -80,7 +80,7 @@ Levels: high 60+, medium 40-59, low under 40. The score ranks what to review fir
 | Claude Code older than 2.1.275 | `/plugin marketplace add aaronjmars/3rd-party-audit`, then `/plugin install third-party-scan@3rd-party-audit` |
 | By hand | copy `skills/third-party-scan/` into `~/.claude/skills/`, `~/.codex/skills/` or your agent's skills folder |
 
-Needs Python 3.9 or newer, standard library only, nothing to `pip install`. The first run downloads about 24 MB of public datasets into a temp cache. `whois` is optional.
+Needs Python 3.10 or newer, standard library only, nothing to `pip install`. The first run downloads about 24 MB of public datasets into a temp cache. `whois` is optional.
 
 ## Usage
 
@@ -139,7 +139,7 @@ Direct requests carry an honest User-Agent, `third-party-scan (+https://github.c
 python3 -m unittest discover -s tests -v
 ```
 
-The tests run offline on built-in sample data and never send a scan. CI runs them on Linux, macOS and Windows with Python 3.9 and 3.13. The agent instructions live in [SKILL.md](skills/third-party-scan/SKILL.md).
+The tests run offline on built-in sample data and never send a scan. CI runs them on Linux, macOS and Windows with Python 3.10 and 3.13. The agent instructions live in [SKILL.md](skills/third-party-scan/SKILL.md).
 
 ## License
 
